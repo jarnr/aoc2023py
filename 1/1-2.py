@@ -13,7 +13,6 @@ def get_value(line):
     first = get_first_num(line)
     last = get_last_num(line[::-1])
     
-    print(f"First: {first}    Last: {last}    Total: {10 * first + last}")
     return 10 * first + last
 
 def get_first_num(line):
